@@ -1,6 +1,4 @@
-# leavethe.net
+# The Wallace Community Website
 
-I want the internet to be a good place for people to build connections and
-communities that seep into the real world.
-
-I want to avoid building something addictive.
+This is mostly just for fun and also to send out some flyers or the like
+For events that we are having at the community house.
