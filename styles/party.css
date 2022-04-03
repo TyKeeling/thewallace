@@ -9,7 +9,13 @@ html {
 body {
   font-size: 20px;
   line-height: 1.5;
-  color: #BBB;
+  color: #FFF;
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
   background-color: black;
   font-family: "Kalam";
   padding-top: 25px;
@@ -20,7 +26,8 @@ h1 {
   font-size: 100px;
   color: White;
   text-align: center;
-  margin: -10px
+  margin: -10px;
+  text-shadow: 4px 4px Black;
 }
 
 h2 {
@@ -29,8 +36,8 @@ h2 {
   font-size: 50px;
   color: White;
   text-align: center;
+  text-shadow: 2px 2px Black;
 }
-
 
 a {
   color: rgb(7, 181, 244);
@@ -122,8 +129,9 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 99%;
 
+  margin: 0px;
   margin-top: 5px;
 
   background-color: #fff;
@@ -144,4 +152,12 @@ a {
   padding: 4px;
   padding-left: 20px;
   color: Black;
+}
+
+.text-bg {
+  margin: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(0,0,0,0.5);
+  border-radius: 10px;
 }
