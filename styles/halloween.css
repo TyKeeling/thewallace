@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Permanent+Marker&family=Roboto+Mono&display=swap');
+
+html {
+  height: 100%;
+  max-width: 1260px;
+  margin:auto;
+}
+
+body {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #FFF;
+  background-image: url('hallowbackground.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+  background-color: black;
+  font-family: "Kalam";
+  padding-top: 25px;
+}
+
+h1 {
+  font-family: "Permanent Marker";
+  font-size: 10vw;
+  color: White;
+  text-align: center;
+  margin: -10px;
+  text-shadow: 4px 4px Black;
+}
+
+h2 {
+  margin: -10px;
+  font-family: "Permanent Marker";
+  font-size: 50px;
+  color: White;
+  text-align: center;
+  text-shadow: 2px 2px Black;
+}
+
+a {
+  color: rgb(7, 181, 244);
+  border-bottom: 0;
+  text-decoration: none;
+  display: inline;
+}
+
+.homeheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.name {
+  font-family: "Roboto Mono";
+  font-size: 30px;
+  margin: 0;
+}
+
+.ul {
+  border-bottom: 2px solid black;
+}
+
+.row_cls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.col_cls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wide {
+  width: 65%;
+  justify-content: space-between;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.subtext {
+  font-size: 18px;
+  color:#777;
+}
+
+.indent {
+  margin-left: 40px;
+}
+
+.inlet {
+  margin: 10px;
+  width: 95%;
+  padding: 20px;
+  padding-top: 1px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  color: #777;
+}
+
+#div1 {
+  display: inline-block;
+  width:40%;
+  border: 1px solid #777;
+}
+
+#div2 {
+  display: inline-block;
+  width:40%;
+  border: 1px solid #777;
+}
+/*# sourceMappingURL=main.css.map */
+
+
+.img-border {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 99%;
+
+  margin: 0px;
+  margin-top: 5px;
+
+  background-color: #fff;
+  padding: 4px;
+  border-radius: 20px;
+}
+
+.jack-img {
+  max-width: 100%;
+  width: 100px;
+  height: auto;
+}
+
+.hf {
+  background-color: rgb(214, 0, 0);
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.hft {
+  padding: 4px;
+  padding-left: 20px;
+  color: Black;
+}
+
+.text-bg {
+  margin: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(0,0,0,0.5);
+  border-radius: 10px;
+}
